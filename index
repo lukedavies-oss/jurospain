@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>jurospain.com</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <style>body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0}</style>
+</head>
+<body>
+  <main>
+    <h1>Juro Spain</h1>
+    <p>The site is deployed. Replace this page with your real site content when ready.</p>
+  </main>
+</body>
+</html>
