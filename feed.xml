@@ -1,0 +1,13 @@
+---
+layout: nil
+permalink: /feed.xml
+---
+{% feed_meta %}
+{% for post in site.posts limit:20 %}
+<entry>
+  <title>{{ post.title | xml_escape }}</title>
+  <link href="{{ post.url | absolute_url }}"/>
+  <updated>{{ post.date | date_to_xmlschema }}</updated>
+  <summary>{{ post.excerpt | strip_html | xml_escape }}</summary>
+</entry>
+{% endfor %}

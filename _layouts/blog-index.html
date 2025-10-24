@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% if page.breadcrumbs %}
+  {% include breadcrumbs.html trail=page.breadcrumbs %}
+{% endif %}
+<section class="blog-index" aria-labelledby="blog-index-title">
+  <header class="page-header">
+    <h1 id="blog-index-title">{{ page.title }}</h1>
+    {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+  </header>
+  {% assign start = page.posts.offset | default: 0 %}
+  {% assign limit = page.posts.limit | default: site.paginate %}
+  {% assign paginated_posts = site.posts | slice: start, limit %}
+  <div class="post-grid">
+    {% for post in paginated_posts %}
+    <article class="post-card">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="meta">{{ post.date | date: "%d %b %Y" }} · {{ post.description }}</p>
+      <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+      <a class="button tertiary" href="{{ post.url | relative_url }}">Read guide</a>
+    </article>
+    {% endfor %}
+  </div>
+  <nav class="pagination" aria-label="Pagination">
+    {% if page.prev_url %}
+      <a class="button secondary" href="{{ page.prev_url | relative_url }}">Newer posts</a>
+    {% endif %}
+    {% assign next_offset = start | plus: limit %}
+    {% if next_offset < site.posts.size %}
+      {% assign next_url = page.next_url | default: nil %}
+      {% if next_url %}
+        <a class="button secondary" href="{{ next_url | relative_url }}">Older posts</a>
+      {% endif %}
+    {% endif %}
+  </nav>
+</section>

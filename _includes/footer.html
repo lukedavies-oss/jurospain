@@ -1,0 +1,32 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="container footer-grid">
+    <div>
+      <h2>Contact</h2>
+      <p><strong>Phone:</strong> <a href="tel:+34000000000">+34 000 000 000</a></p>
+      <p><strong>Email:</strong> <a href="mailto:hello@jurospain.com">hello@jurospain.com</a></p>
+      <p><strong>Location:</strong> Madrid, serving clients across Spain.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/company/jurospain" rel="noopener" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div>
+      <h2>Quick links</h2>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/pages/services/' | relative_url }}">Services</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/pages/pricing/' | relative_url }}">Pricing</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Legal</h2>
+      <ul>
+        <li><a href="{{ '/pages/legal/terms/' | relative_url }}">Terms</a></li>
+        <li><a href="{{ '/pages/legal/privacy/' | relative_url }}">Privacy</a></li>
+      </ul>
+      <p class="disclaimer">Information only. Not legal advice. Speak to our partner lawyer.</p>
+    </div>
+  </div>
+  <p class="footer-note">© {{ 'now' | date: '%Y' }} Juro Spain. All rights reserved.</p>
+</footer>
+{% include cookie-banner.html %}
