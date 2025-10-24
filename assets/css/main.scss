@@ -370,6 +370,38 @@ select:focus {
   }
 }
 .hero {
+  background: radial-gradient(120% 120% at 10% 10%, rgba(241, 191, 0, 0.18), transparent 40%),
+    radial-gradient(90% 90% at 90% 20%, rgba(170, 21, 27, 0.16), transparent 45%),
+    #0B1B3B;
+  color: #fff;
+  padding: 4rem 1.25rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 0 0 0.5rem;
+}
+
+.hero p.lead {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  opacity: 0.9;
+}
+
+.cta-btn {
+  background: #0B1B3B;
+  border: 2px solid #F1BF00;
+  color: #fff;
+  padding: 0.9rem 1.25rem;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.cta-btn:hover {
+  box-shadow: 0 0 0 3px rgba(170, 21, 27, 0.35) inset;
+}
   background: radial-gradient(120% 120% at 10% 10%, rgba(241,191,0,0.18), transparent 40%),
               radial-gradient(90% 90% at 90% 20%, rgba(170,21,27,0.16), transparent 45%),
               #0B1B3B;
