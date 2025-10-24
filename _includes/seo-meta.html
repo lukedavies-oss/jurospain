@@ -1,0 +1,44 @@
+{%- assign page_title = page.title | default: site.title -%}
+{%- assign meta_description = page.description | default: site.description -%}
+{%- assign og_image = page.image | default: 'https://placehold.co/1200x630?text=Juro+Spain' -%}
+{%- if og_image contains '://' -%}
+  {%- assign og_image_url = og_image -%}
+{%- else -%}
+  {%- assign og_image_url = og_image | absolute_url -%}
+{%- endif -%}
+<title>{{ page_title }} | {{ site.title }}</title>
+<meta name="description" content="{{ meta_description | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page_title | escape }}">
+<meta property="og:description" content="{{ meta_description | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:image" content="{{ og_image_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title | escape }}">
+<meta name="twitter:description" content="{{ meta_description | escape }}">
+<meta name="twitter:image" content="{{ og_image_url }}">
+<link rel="icon" href="{{ '/assets/img/logo.svg' | relative_url }}" type="image/svg+xml">
+<meta name="robots" content="index, follow">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Juro Spain",
+  "url": "https://jurospain.com",
+  "image": "{{ og_image_url }}",
+  "logo": "{{ '/assets/img/logo.svg' | absolute_url }}",
+  "telephone": "+34 000 000 000",
+  "email": "hello@jurospain.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle de Ejemplo 1",
+    "addressLocality": "Madrid",
+    "addressCountry": "ES"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/jurospain"
+  ]
+}
+</script>

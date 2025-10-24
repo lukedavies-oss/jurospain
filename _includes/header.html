@@ -1,0 +1,19 @@
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a class="logo" href="/" aria-label="Juro Spain">
+      <img src="/assets/img/logo.svg" alt="Juro Spain" width="180" height="36" />
+    </a>
+    <nav class="site-nav" role="navigation" aria-label="Main">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+      <ul id="nav-menu">
+        {% for item in site.data.nav %}
+        <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="header-cta">
+      <a class="button primary" href="https://calendly.com/YOUR-CALENDLY" rel="noopener" target="_blank">Book a call</a>
+      <a class="button secondary" href="mailto:hello@jurospain.com">Email us</a>
+    </div>
+  </div>
+</header>
