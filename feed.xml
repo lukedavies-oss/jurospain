@@ -1,0 +1,21 @@
+---
+layout: none
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ site.description }}</description>
+    {% for post in site.posts limit:20 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <guid>{{ site.url }}{{ post.url }}</guid>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <description><![CDATA[{{ post.excerpt | strip_html | truncate: 200 }}]]></description>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
