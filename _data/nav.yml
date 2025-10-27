@@ -1,0 +1,12 @@
+- title: Home
+  url: /
+- title: Services
+  url: /pages/services/
+- title: Blog
+  url: /blog/
+- title: Pricing
+  url: /pages/pricing/
+- title: About
+  url: /pages/about/
+- title: Contact
+  url: /pages/contact/
