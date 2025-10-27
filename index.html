@@ -1,0 +1,132 @@
+---
+layout: default
+title: Home
+seo_title: "Juro Spain — Legal help for expats"
+description: "Relocation-focused legal support in Spain: NIE, visas, property and more with clear pricing and English-speaking lawyers."
+permalink: /
+---
+<section class="hero section-pad">
+  <div class="container hero-inner">
+    <div>
+      <p class="eyebrow">Spain relocation specialists</p>
+      <h1>Legal help for living in Spain—simple, clear, fast.</h1>
+      <p>From NIE numbers to buying property, Juro Spain keeps your relocation smooth with English-speaking experts and transparent pricing.</p>
+      <div class="hero-cta">
+        {% include cta-book.html %}
+        <a class="btn btn-secondary" href="mailto:hello@jurospain.com">Email us</a>
+      </div>
+      <ul class="trust-badges">
+        <li>English-speaking lawyers</li>
+        <li>Nationwide coverage</li>
+        <li>Fast document turnarounds</li>
+      </ul>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-visual-card">
+        <p class="hero-visual-kicker">Trusted by expats across Spain</p>
+        <ul class="hero-visual-stats">
+          <li><span>48h</span> average NIE appointment booking</li>
+          <li><span>€500k+</span> property due diligence completed</li>
+          <li><span>12</span> partner cities with on-the-ground support</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="features section-pad" aria-labelledby="feature-heading">
+  <div class="container">
+    <h2 id="feature-heading" class="section-title">Your top priorities, handled</h2>
+    <div class="feature-grid">
+      <article>
+        <h3>NIE in record time</h3>
+        <p>Get the appointment, paperwork, and translations you need for a stress-free NIE application.</p>
+        <a href="{{ '/guides/nie-number-spain/' | relative_url }}">Read the NIE guide</a>
+      </article>
+      <article>
+        <h3>Golden Visa strategy</h3>
+        <p>Identify qualifying investments, handle due diligence, and secure your family’s residency.</p>
+        <a href="{{ '/guides/spain-golden-visa/' | relative_url }}">Explore the Golden Visa path</a>
+      </article>
+      <article>
+        <h3>Buy property securely</h3>
+        <p>From reservation contract to notary, we review every clause and coordinate trusted partners.</p>
+        <a href="{{ '/guides/buying-property-in-spain/' | relative_url }}">See the property guide</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="services section-pad" aria-labelledby="services-heading">
+  <div class="container">
+    <h2 id="services-heading" class="section-title">Specialist services for every stage</h2>
+    <div class="service-cards">
+      <article>
+        <h3>NIE & residency numbers</h3>
+        <p>Paperwork reviews, consulate guidance, and in-person representation when needed.</p>
+      </article>
+      <article>
+        <h3>Golden Visa applications</h3>
+        <p>Investment checks, tax coordination, and family member filings in one package.</p>
+      </article>
+      <article>
+        <h3>Buying property</h3>
+        <p>Contract drafting, land registry checks, bank coordination, and utilities handover.</p>
+      </article>
+      <article>
+        <h3>Digital Nomad & remote visas</h3>
+        <p>Eligibility assessments, document preparation, and tax alignment for remote workers.</p>
+      </article>
+      <article>
+        <h3>Non-lucrative visas</h3>
+        <p>Financial documentation, insurance review, and renewal strategy after year one.</p>
+      </article>
+      <article>
+        <h3>Autónomo setup</h3>
+        <p>Hacienda registration, RETA onboarding, and reliable bookkeeping partners.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="testimonials section-pad" aria-labelledby="testimonials-heading">
+  <div class="container">
+    <h2 id="testimonials-heading" class="section-title">Clients stay with us from arrival to residency</h2>
+    <div class="testimonial-grid">
+      <figure>
+        <blockquote>“Juro Spain made our NIE appointments and bank account setup effortless. Every document was triple-checked.”</blockquote>
+        <figcaption>— Michael & Laura, moved from the UK</figcaption>
+      </figure>
+      <figure>
+        <blockquote>“Their property lawyers spotted issues in the reservation contract that saved us thousands before signing.”</blockquote>
+        <figcaption>— Sofia, Barcelona buyer</figcaption>
+      </figure>
+      <figure>
+        <blockquote>“Clear guidance on the digital nomad visa and taxes. The process felt human, even from overseas.”</blockquote>
+        <figcaption>— Daniel, remote CTO</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+<section class="blog-teaser section-pad" aria-labelledby="blog-heading">
+  <div class="container">
+    <h2 id="blog-heading" class="section-title">Latest guides</h2>
+    <div class="post-grid">
+      {% assign latest_posts = site.posts | slice: 0, 3 %}
+      {% for post in latest_posts %}
+      <article>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="post-meta">{{ post.date | date: '%d %B %Y' }}</p>
+        <p>{{ post.description }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="cta section-pad" aria-labelledby="cta-heading">
+  <div class="container">
+    <h2 id="cta-heading" class="section-title">Ready to simplify your Spanish move?</h2>
+    <p>Book a call to map out your next legal steps, or email us with your questions.</p>
+    <div class="hero-cta">
+      {% include cta-book.html %}
+      <a class="btn btn-secondary" href="mailto:hello@jurospain.com">Email us</a>
+    </div>
+  </div>
+</section>
