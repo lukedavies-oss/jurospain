@@ -40,6 +40,10 @@
   if (!banner) return;
 
   var consent = localStorage.getItem('juro-cookie-consent');
+  const banner = document.querySelector('.cookie-banner');
+  if (!banner) return;
+
+  const consent = localStorage.getItem('juro-cookie-consent');
   if (!consent) {
     banner.hidden = false;
   } else if (consent === 'accepted') {
@@ -48,6 +52,7 @@
 
   banner.addEventListener('click', function (event) {
     var action = event.target.getAttribute('data-cookie-action');
+    const action = event.target.getAttribute('data-cookie-action');
     if (!action) return;
 
     if (action === 'accept') {
