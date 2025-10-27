@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="https://schema.org/Article">
+  {% include breadcrumbs.html %}
+  <header class="post-header">
+    <p class="post-meta">{{ page.date | date: '%d %B %Y' }}</p>
+    <h1 itemprop="headline">{{ page.title }}</h1>
+    {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  <section class="post-related" aria-labelledby="related-guides">
+    <h2 id="related-guides">Related guides</h2>
+    <ul>
+      {% assign related = site.posts | where_exp: 'post','post.url != page.url' | limit:4 %}
+      {% for rel in related %}
+      <li><a href="{{ rel.url | relative_url }}">{{ rel.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section class="post-cta">
+    <p>This guide is informational; get tailored advice by booking a call with our partner lawyer.</p>
+    {% include cta-book.html %}
+  </section>
+</article>
