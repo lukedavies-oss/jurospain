@@ -1,0 +1,40 @@
+title: "Juro Spain"
+description: "Legal help for living in Spain—simple, clear, fast."
+url: "https://jurospain.com"
+baseurl: ""
+permalink: "/:categories/:title/"
+lang: "en"
+timezone: "Europe/Madrid"
+paginate: 9
+paginate_path: "/blog/page:num/"
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+collections:
+  posts:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "Juro Spain Team"
+      toc: true
+      categories: guides
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      toc: false
+sass:
+  sass_dir: assets/css
+  style: compressed
+feed:
+  path: feed.xml
