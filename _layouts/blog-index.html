@@ -11,6 +11,40 @@ layout: default
 {% assign prev_offset = offset | minus: limit %}
 {% assign next_page_number = next_offset | divided_by: limit | plus: 1 %}
 {% assign prev_page_number = prev_offset | divided_by: limit | plus: 1 %}
+<section class="section-pad">
+  <div class="container">
+    <div class="page blog-index">
+      <header class="page-header">
+        <h1 class="section-title">{{ page.title | default: 'Insights for living in Spain' }}</h1>
+        {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+      </header>
+      <div class="post-grid">
+        {% for post in site.posts limit: limit offset: offset %}
+        <article>
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p class="post-meta">{{ post.date | date: '%d %B %Y' }}</p>
+          <p>{{ post.description }}</p>
+          <a class="read-more" href="{{ post.url | relative_url }}">Read guide</a>
+        </article>
+        {% endfor %}
+      </div>
+      {% if total_pages > 1 %}
+      <nav class="pagination" aria-label="Pagination">
+        {% if prev_offset >= 0 %}
+          {% if prev_offset == 0 %}
+          <a class="prev" href="{{ base | relative_url }}">Previous</a>
+          {% else %}
+          <a class="prev" href="{{ base | append: 'page/' | append: prev_page_number | append: '/' | relative_url }}">Previous</a>
+          {% endif %}
+        {% endif %}
+        <span class="page-number">Page {{ current_page }} of {{ total_pages }}</span>
+        {% if next_offset < total_posts %}
+          <a class="next" href="{{ base | append: 'page/' | append: next_page_number | append: '/' | relative_url }}">Next</a>
+        {% endif %}
+      </nav>
+      {% endif %}
+    </div>
+  </div>
 <section class="blog-index">
   <header class="page-header">
     <h1>{{ page.title | default: 'Insights for living in Spain' }}</h1>
