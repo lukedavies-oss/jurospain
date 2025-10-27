@@ -1,4 +1,15 @@
 <footer class="site-footer" role="contentinfo">
+  <div class="container footer-shell">
+    <div class="footer-brand">
+      <h2 class="footer-title">{{ site.title }}</h2>
+      <p class="tagline">Legal help for living in Spain—simple, clear, fast.</p>
+      <p class="contact-meta">Madrid, Spain · <a href="tel:+34000000000">+34 000 000 000</a><br /><a href="mailto:hello@jurospain.com">hello@jurospain.com</a></p>
+      <div class="footer-cta">
+        {% include cta-book.html %}
+        <a class="btn btn-ghost" href="mailto:hello@jurospain.com">Email us</a>
+      </div>
+    </div>
+    <div class="footer-links">
   <div class="container footer-grid">
     <div>
       <h2 class="footer-title">{{ site.title }}</h2>
@@ -12,6 +23,14 @@
         {% for item in site.data.nav %}
         <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
         {% endfor %}
+      </ul>
+    </div>
+    <div class="footer-legal">
+      <h3>Stay informed</h3>
+      <ul>
+        <li><a href="https://www.linkedin.com/company/juro-spain" rel="noopener" target="_blank">LinkedIn</a></li>
+        <li><a href="{{ '/pages/legal/terms/' | relative_url }}">Terms</a></li>
+        <li><a href="{{ '/pages/legal/privacy/' | relative_url }}">Privacy</a></li>
         <li><a href="{{ '/pages/legal/terms/' | relative_url }}">Terms</a></li>
         <li><a href="{{ '/pages/legal/privacy/' | relative_url }}">Privacy</a></li>
       </ul>
