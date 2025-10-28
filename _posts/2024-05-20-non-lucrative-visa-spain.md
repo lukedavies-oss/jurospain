@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Spain Non-Lucrative Visa: Income Requirements & Application Steps"
 description: "How to qualify, gather documents, apply at the consulate, and transition to residency—plus common reasons for refusals."
 seo_title: "Spain Non-Lucrative Visa: Income Requirements & Application Steps"
+permalink: /guides/non-lucrative-visa-spain/
 date: 2024-05-20
 tags: [non-lucrative visa, residency]
 image: /assets/img/logo.svg

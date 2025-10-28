@@ -1,6 +1,6 @@
 # Juro Spain static site
 
-Production-ready Jekyll site for [jurospain.com](https://jurospain.com).
+Production-ready Jekyll site for [jurospain.com](https://jurospain.com) built on the [Minima theme](https://github.com/jekyll/minima).
 
 ## Local development
 
@@ -29,9 +29,8 @@ Include a `CNAME` file with `jurospain.com` in the repository root (already pres
 
 ## Content management
 
-- Pages live in `/pages/` and are written in Markdown.
-- Blog posts live in `/_posts/` and use standard Jekyll front matter.
-- Navigation items are stored in `_data/nav.yml`.
-- Global components sit in `_includes/` for easy reuse.
+- Primary pages live in the repository root as Markdown (`index.md`, `about.md`, `services.md`, `pricing.md`, `contact.md`, etc.).
+- Long-form guides live in `/_posts/` and publish under `/guides/.../` thanks to each post’s custom permalink.
+- Styling relies on Minima’s defaults with no additional overrides to keep maintenance simple.
 
-Add new posts by creating Markdown files under `_posts/` with the format `YYYY-MM-DD-title.md`. The layout automatically injects breadcrumbs, CTAs, and related links.
+Add new guides by creating Markdown files under `_posts/` with the format `YYYY-MM-DD-title.md` and setting a `permalink` under `/guides/`.

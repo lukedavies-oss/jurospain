@@ -1,8 +1,10 @@
 ---
+layout: page
 title: Services
 description: Immigration, property, and business services tailored to international families relocating to Spain.
-permalink: /pages/services/
+permalink: /services/
 ---
+
 ## Immigration essentials
 
 ### NIE and residency numbers
@@ -69,4 +71,4 @@ permalink: /pages/services/
 - Quarterly reminders and compliance reviews
 [Get started as autónomo]({{ '/guides/register-as-autonomo-spain/' | relative_url }})
 
-{% include cta-book.html %}
+[Book a call](https://calendly.com/YOUR-CALENDLY) to plan the right mix of services for your move.

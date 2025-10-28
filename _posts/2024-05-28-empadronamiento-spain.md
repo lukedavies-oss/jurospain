@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Empadronamiento in Spain: Registration, Proof of Address & Why It Matters"
 description: "What empadronamiento is, how to register, required documents, booking appointments, and how it links to healthcare, schools, and visas."
 seo_title: "Empadronamiento in Spain: Registration, Proof of Address & Why It Matters"
+permalink: /guides/empadronamiento-spain/
 date: 2024-05-28
 tags: [empadronamiento, residency]
 image: /assets/img/logo.svg

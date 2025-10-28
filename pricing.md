@@ -1,8 +1,10 @@
 ---
+layout: page
 title: Pricing
 description: Transparent, fixed-fee legal packages for moving to and investing in Spain.
-permalink: /pages/pricing/
+permalink: /pricing/
 ---
+
 ## Fixed-fee packages
 
 | Package | Includes | From |
@@ -20,4 +22,4 @@ permalink: /pages/pricing/
 3. **50/50 split.** Pay half to start, half on completion. Card and bank transfer accepted.
 4. **Optional add-ons.** Translation, sworn interpretation, and tax consultations priced at cost.
 
-Need a tailored quote? {% include cta-book.html %}
+Need a tailored quote? [Book a call](https://calendly.com/YOUR-CALENDLY) to create a custom package.
