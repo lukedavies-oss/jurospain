@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Power of Attorney in Spain: Buy, Sell, or Manage Admin from Abroad"
 description: "When a Spanish power of attorney is needed, how to draft it, get it notarised and apostilled, manage risks, and revoke it."
 seo_title: "Power of Attorney in Spain: Buy, Sell, or Manage Admin from Abroad"
+permalink: /guides/power-of-attorney-spain/
 date: 2024-06-05
 tags: [power of attorney, legal]
 image: /assets/img/logo.svg

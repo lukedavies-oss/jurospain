@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Spain Golden Visa: The Complete 2025 Guide"
 description: "Investment routes, property rules, required documents, timelines, and taxes—everything you need to secure Spain’s Golden Visa."
 seo_title: "Spain Golden Visa: The Complete 2025 Guide"
+permalink: /guides/spain-golden-visa/
 date: 2024-05-05
 tags: [Golden Visa, residency, investment]
 image: /assets/img/logo.svg

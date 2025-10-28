@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Mortgages for Expats in Spain: LTVs, Rates & Documentation"
 description: "Banks that lend to non-residents, typical loan-to-value ratios, required documentation, timelines, property valuation, and insurance obligations."
 seo_title: "Mortgages for Expats in Spain: LTVs, Rates & Documentation"
+permalink: /guides/mortgages-for-expats-spain/
 date: 2024-06-10
 tags: [mortgages, finance, property]
 image: /assets/img/logo.svg
