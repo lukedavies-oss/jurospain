@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "How to Get Your NIE Number in Spain (2025 Guide)"
 description: "Step-by-step guide to getting a Spanish NIE number: documents, appointments, costs, and timelines for EU and non-EU citizens."
 seo_title: "How to Get Your NIE Number in Spain (2025 Guide)"
+permalink: /guides/nie-number-spain/
 date: 2024-05-01
 tags: [NIE, immigration, Spain]
 image: /assets/img/logo.svg

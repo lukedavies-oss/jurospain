@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Buying Property in Spain as a Foreigner: Fees, Taxes & Process"
 description: "From reservation to notary—ITP, IVA, AJD, NIE, bank accounts, mortgages for expats, and common mistakes to avoid."
 seo_title: "Buying Property in Spain as a Foreigner: Fees, Taxes & Process"
+permalink: /guides/buying-property-in-spain/
 date: 2024-05-10
 tags: [property, real estate, Spain]
 image: /assets/img/logo.svg

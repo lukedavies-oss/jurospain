@@ -1,40 +1,31 @@
-title: "Juro Spain"
-description: "Legal help for living in Spain—simple, clear, fast."
+title: JURO Spain
+description: Legal innovation, contract automation, and digital document solutions for modern businesses in Spain.
+theme: minima
 url: "https://jurospain.com"
 baseurl: ""
-permalink: "/:categories/:title/"
-lang: "en"
-timezone: "Europe/Madrid"
-paginate: 9
-paginate_path: "/blog/page:num/"
+lang: en
+timezone: Europe/Madrid
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-collections:
-  posts:
-    output: true
+permalink: /:title/
+header_pages:
+  - about.md
+  - services.md
+  - pricing.md
+  - contact.md
+  - blog.md
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
       layout: post
-      author: "Juro Spain Team"
-      toc: true
+      author: Juro Spain Team
       categories: guides
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page
-      toc: false
 sass:
-  sass_dir: assets/css
   style: compressed
-feed:
-  path: feed.xml

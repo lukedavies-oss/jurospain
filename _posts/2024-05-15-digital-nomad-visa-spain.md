@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Spain Digital Nomad Visa: Requirements, Income Thresholds & Taxes"
 description: "Eligibility, documents, remote work evidence, health insurance, timing, and tax considerations for Spain’s digital nomad visa."
 seo_title: "Spain Digital Nomad Visa: Requirements, Income Thresholds & Taxes"
+permalink: /guides/digital-nomad-visa-spain/
 date: 2024-05-15
 tags: [digital nomad visa, remote work]
 image: /assets/img/logo.svg

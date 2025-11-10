@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "How to Open a Bank Account in Spain (Resident & Non-Resident)"
 description: "Non-resident certificate, KYC, fees, online vs branch onboarding, documents, and insider tips for expats."
 seo_title: "How to Open a Bank Account in Spain (Resident & Non-Resident)"
+permalink: /guides/opening-a-bank-account-spain/
 date: 2024-05-25
 tags: [banking, finance, Spain]
 image: /assets/img/logo.svg
