@@ -1,7 +1,8 @@
 ---
+layout: page
 title: Terms of Use
 description: Terms governing use of the Juro Spain website and services.
-permalink: /pages/legal/terms/
+permalink: /terms/
 ---
 ## 1. Who we are
 

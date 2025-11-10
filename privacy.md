@@ -1,7 +1,8 @@
 ---
+layout: page
 title: Privacy Policy
 description: How Juro Spain collects, uses, and protects your personal data.
-permalink: /pages/legal/privacy/
+permalink: /privacy/
 ---
 ## 1. Data controller
 

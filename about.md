@@ -1,11 +1,13 @@
 ---
+layout: page
 title: About Juro Spain
 description: Meet the relocation-focused legal team that helps expats settle confidently in Spain.
-permalink: /pages/about/
+permalink: /about/
 ---
+
 ## Our story
 
-Juro Spain was born when a group of relocation consultants and a Madrid-based partner lawyer noticed how many international families were juggling fragmented advice. We decided to build a boutique, English-first practice that treats every move as a project with milestones, owners, and proactive communication.
+Juro Spain was born when a group of relocation consultants and a Madrid-based partner lawyer noticed how many international families were juggling fragmented advice. We built a boutique, English-first practice that treats every move as a project with milestones, owners, and proactive communication.
 
 ## What we believe in
 
@@ -30,4 +32,4 @@ We operate remotely across Spain, with in-person support in Madrid, Barcelona, V
 3. **Execution.** We prepare documents, attend appointments, and keep you updated.
 4. **Settlement support.** Beyond the first milestone, we assist with renewals, utilities, and ongoing compliance.
 
-Ready to start? {% include cta-book.html %}
+Ready to start? [Book a call](https://calendly.com/YOUR-CALENDLY) or [email hello@jurospain.com](mailto:hello@jurospain.com).
