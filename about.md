@@ -1,35 +1,33 @@
 ---
 layout: page
 title: About Juro Spain
-description: Meet the relocation-focused legal team that helps expats settle confidently in Spain.
+description: English-speaking legal experts helping expats with visas, residency, and property purchases across Spain.
 permalink: /about/
 ---
 
-## Our story
+## Expert legal support for expats in Spain
 
-Juro Spain was born when a group of relocation consultants and a Madrid-based partner lawyer noticed how many international families were juggling fragmented advice. We built a boutique, English-first practice that treats every move as a project with milestones, owners, and proactive communication.
+Juro Spain specializes in relocation law for international families and professionals moving to Spain. With over 11 years of experience guiding expats through Spanish immigration, property transactions, and residency processes, we provide clear, English-first legal services nationwide.
 
 ## What we believe in
 
-- **Clarity before paperwork.** We translate Spanish legal steps into plain English roadmaps.
-- **Quality partners.** From notaries to tax advisors, we only collaborate with vetted professionals.
-- **Momentum.** Immigration and property timelines move fast—we keep every file on track.
+- **Clarity before paperwork.** We translate Spanish legal requirements into plain English roadmaps.
+- **Quality partnerships.** We work only with vetted notaries, tax advisors, and immigration specialists.
+- **Momentum.** Immigration and property timelines move fast—we keep every case on track.
 
-## Meet your core team
+## Our services across Spain
 
-- **Elena Martín — Partner lawyer.** Spanish-qualified attorney focused on immigration and property transactions.
-- **Chris Walker — Client lead.** UK-born relocation specialist who has lived in Spain for a decade.
-- **Ana López — Case manager.** Coordinates appointments, sworn translations, and document logistics.
+We serve expats throughout Spain with in-person support available in Barcelona, Valencia, Málaga, and Alicante through our trusted partner network.
 
-## Trusted nationwide
+### Immigration & residency expertise
+NIE applications, Golden Visa processing, Digital Nomad Visa support, non-lucrative residency, and visa renewals
 
-We operate remotely across Spain, with in-person support in Madrid, Barcelona, Valencia, Málaga, and Alicante through our partner network.
+### Property purchase guidance
+Contract reviews, notary representation, mortgage assistance for international buyers, and power of attorney services
+
+### Relocation essentials
+Banking setup, empadronamiento registration, autónomo business registration, and ongoing compliance support
 
 ## How we work with you
 
-1. **Discovery call.** Understand your goals, timeline, and budget.
-2. **Strategy pack.** A written plan with requirements, costs, and deadlines.
-3. **Execution.** We prepare documents, attend appointments, and keep you updated.
-4. **Settlement support.** Beyond the first milestone, we assist with renewals, utilities, and ongoing compliance.
-
-Ready to start? [Book a call](https://calendly.com/YOUR-CALENDLY) or [email hello@jurospain.com](mailto:hello@jurospain.com).
+1. **
