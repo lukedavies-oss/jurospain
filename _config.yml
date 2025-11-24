@@ -17,6 +17,7 @@ header_pages:
   - about.md
   - services.md
   - pricing.md
+  - glossary.md
   - contact.md
   - blog.md
 defaults:
